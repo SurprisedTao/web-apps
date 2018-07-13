@@ -166,7 +166,7 @@ define([
                 value = '';
 
             if (this.isModified)
-                value = value + '*';
+                value = value + '*文件保存中';
 
             var dc = $('#header-documentcaption div');
             if (dc)
